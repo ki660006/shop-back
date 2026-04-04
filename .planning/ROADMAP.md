@@ -28,11 +28,14 @@
 **Depends on**: Phase 1
 **Requirements**: SHOP-01, SHOP-02, SHOP-03, SHOP-04
 **Success Criteria** (what must be TRUE):
-  1. User can retrieve a list of product categories.
+  1. User can retrieve a list of product categories as a hierarchical tree.
   2. User can search for products using keywords and filter by price range and category.
-  3. User can fetch full details of a specific product.
-  4. Product reviews and Q&A are visible in product detail responses (mock data allowed for v1 content).
-**Plans**: TBD
+  3. User can fetch full details of a specific product with images and mock data.
+  4. Cursor-based infinite scroll provides stable performance for product browsing.
+**Plans**: 3 plans
+- [ ] 02-01-PLAN.md — Foundation establishment and hierarchical category tree implementation.
+- [ ] 02-02-PLAN.md — Searchable product catalog with cursor-based infinite scrolling.
+- [ ] 02-03-PLAN.md — Product media management and comprehensive phase verification.
 
 ### Phase 3: Shopping Cart Persistence
 **Goal**: Enable persistent cart state across browser sessions.
@@ -70,7 +73,7 @@
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Authentication | 0/3 | In Progress | - |
-| 2. Product Catalog & Discovery | 0/1 | Not started | - |
+| 2. Product Catalog & Discovery | 0/3 | Not started | - |
 | 3. Shopping Cart Persistence | 0/1 | Not started | - |
 | 4. Checkout & Order Management | 0/1 | Not started | - |
 | 5. Personalization & Polish | 0/1 | Not started | - |
