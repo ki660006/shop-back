@@ -45,7 +45,10 @@
   1. User can add products to their cart and see them persist after logging out and back in.
   2. User can modify item quantities and remove items from the cart.
   3. Cart calculations (subtotals, totals) are correctly handled on the server.
-**Plans**: TBD
+**Plans**: 3 plans
+- [ ] 03-01-PLAN.md — Cart data foundation: Flyway V3 migration and entity mappings.
+- [ ] 03-02-PLAN.md — Core Cart Service & API: CRUD operations, stock validation, and limits.
+- [ ] 03-03-PLAN.md — Cart lifecycle management: Merging, scheduled cleanup, and integration tests.
 
 ### Phase 4: Checkout & Order Management
 **Goal**: Complete the transactional loop for purchases and history.
@@ -74,6 +77,6 @@
 |-------|----------------|--------|-----------|
 | 1. Foundation & Authentication | 0/3 | In Progress | - |
 | 2. Product Catalog & Discovery | 0/3 | Not started | - |
-| 3. Shopping Cart Persistence | 0/1 | Not started | - |
+| 3. Shopping Cart Persistence | 0/3 | Not started | - |
 | 4. Checkout & Order Management | 0/1 | Not started | - |
 | 5. Personalization & Polish | 0/1 | Not started | - |
