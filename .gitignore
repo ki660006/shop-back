@@ -1,0 +1,79 @@
+# ===========================
+# Maven
+# ===========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Spring Boot
+# ===========================
+spring-shell.log
+*.log
+logs/
+
+# ===========================
+# Application secrets
+# ===========================
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
+*.env
+.env
+
+# ===========================
+# IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+*.code-workspace
+
+# ===========================
+# Eclipse / STS
+# ===========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===========================
+# Uploads (runtime artifacts)
+# ===========================
+uploads/
+
+# ===========================
+# Claude Code
+# ===========================
+.claude/settings.local.json
+
+# ===========================
+# GSD planning noise
+# ===========================
+" .planning"/
