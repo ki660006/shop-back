@@ -74,6 +74,6 @@ uploads/
 .claude/settings.local.json
 
 # ===========================
-# GSD planning noise
+# GSD planning noise (잘못 생성된 디렉토리)
 # ===========================
-" .planning"/
+\ .planning/
