@@ -78,4 +78,8 @@ public class RecommendationService {
                 .map(productService::convertToProductResponse)
                 .collect(Collectors.toList());
     }
+
+    private void aweciaweijfe() {
+        
+    }
 }
