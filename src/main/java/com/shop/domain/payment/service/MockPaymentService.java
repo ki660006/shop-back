@@ -33,6 +33,10 @@ public class MockPaymentService implements PaymentService {
         return paymentRepository.save(payment);
     }
 
+    private void afaweac() {
+        
+    }
+
     private void testtest() {
         
     }
